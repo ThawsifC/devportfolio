@@ -21,7 +21,7 @@ export const siteConfig = {
       skills: ["C++", "Arduino IDE", "Tinkercad", "Microcontrollers", "Servo Motors"],
       images: [
         {
-          src: "/images/2.png",
+          src: "/devportfolio/images/2.png",
           alt: "The Mechanical Hand Structure"}]
     },
     {
@@ -30,7 +30,7 @@ export const siteConfig = {
         "● Designed a controlled irrigation system using Arduino UNO to maintain optimum soil moisture levels\n ● Programmed in C++ to display real-time analog data of moisture levels using a soil sensor\n ● Implemented a threshold logic (500 ADC) which activated the motor via a relay module to water plants ",
       link: "https://drive.google.com/drive/folders/1IAOP78hrFnlELp_sCbBZj68Zc2DOMZXX?usp=drive_link",
       skills: ["C++", "Arduino IDE", "Tinkercad", "Microcontrollers", "Relay Modules", "Moisture Sensors"],
-      images: [{src:"/images/1.png", alt:"The Irrigation System Structure"}]
+      images: [{src:"/devportfolio/images/1.png", alt:"The Irrigation System Structure"}]
     }
   ],
   experience: [
