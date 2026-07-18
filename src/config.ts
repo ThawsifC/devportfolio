@@ -1,92 +1,85 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Thawsif Chowdhury",
+  title: "Software Engineering Intern at ThinkNeuro",
+  description: "Portfolio website of Thawsif Chowdhury",
+  accentColor: "#db2777",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "thawsifchowdhury@gmail.com",
+    linkedin: "http://www.linkedin.com/in/thawsif-chowdhury-1a103b392",
+    twitter: "",
+    github: "https://github.com/ThawsifC",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Hi, I am Thawsif - an upcoming Sophomore at Lehigh University. I’m currently majoring in Electrical Engineering, but I have a keen interest in Computer Science and Mathematics. Other than academics and personal projects, I like to watch sports and play various competitive games.",
+  skills: ["Python", "Java", "C++", "Arduino UNO", "Tinkercad", "LTSpice", "MS Office Suite", "Google Suite"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Mechanical Arm",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "● Designed a mechanical hand controlled using an Arduino UNO\n ● Implemented servo motors with strings that connected to the fingers\n ● Programmed the control software in Arduino IDE (C++) to rotate servo motors in response to keyboard",
+      link: "https://drive.google.com/drive/folders/18GoUOoIfCgqBmZNjHI0aGm0GWALO1LC4?usp=drive_link",
+      skills: ["C++", "Arduino IDE", "Tinkercad", "Microcontrollers", "Servo Motors"],
+      images: [
+        {
+          src: "/images/2.png",
+          alt: "The Mechanical Hand Structure"}]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Arduino Irrigation System",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+        "● Designed a controlled irrigation system using Arduino UNO to maintain optimum soil moisture levels\n ● Programmed in C++ to display real-time analog data of moisture levels using a soil sensor\n ● Implemented a threshold logic (500 ADC) which activated the motor via a relay module to water plants ",
+      link: "https://drive.google.com/drive/folders/1IAOP78hrFnlELp_sCbBZj68Zc2DOMZXX?usp=drive_link",
+      skills: ["C++", "Arduino IDE", "Tinkercad", "Microcontrollers", "Relay Modules", "Moisture Sensors"],
+      images: [{src:"/images/1.png", alt:"The Irrigation System Structure"}]
+    }
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "ThinkNeuro",
+      title: "Software Engineering Intern",
+      dateRange: "Jun 2026 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Manage version control using Git fundamentals such as merging, pulling, branching, committing to prevent code conflicts among collaborators"
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Lehigh University Creative Inquiry",
+      title: "Global Social Impact Fellow - PureSpaces",
+      dateRange: "Jan 2026 - Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Coordinating an international partnership between 3 universities to implement low-cost, high efficiency air purifiers in Almaty, Kazakhstan targeting a $10.5B health crisis caused by extreme air pollution",  
+        "Lead the experimental validation of PureAura filtration systems, executing 9+ trials using Bunsen burners and IQ Air monitors to analyze 1-minute interval CSV data to ensure PM 2.5 stability"
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Lehigh University Community Service Office",
+      title: "America Reads America Counts Tutor",
+      dateRange: "Sep 2025 - May 2026",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Tutored 40+ 8th-grade students in Science, English, Math to prepare them for high school coursework",  
+        "Dedicated 3 hours per week across 3 sessions to clarify 10+ core concepts in Science, English, Math"
       ],
     },
+    {
+      company: "Vaughn College",
+      title: "Engineering Student Researcher",
+      dateRange: "Jul 2024 - Aug 2024",
+      bullets: [
+        "Engineered and trained a Convolutional Neural Network (CNN) model for handwritten digit recognition and a Long Short-Term Memory (LSTM) model for performing sentiment analysis on a dataset of 50,000 IMDb movie reviews",
+        "Implemented a machine learning system using a Linear Regression model for analyzing housing prices",
+        "Engineered an AI-powered voice recognition program using Python to control game movements", 
+        "Developed a research project on AI voice recognition in games like Pac-Man" 
+      ],
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Lehigh University",
+      degree: "Bachelor of Science in Electrical Engineering",
+      dateRange: "2025 - 2029",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+        "Dean's List with a GPA of 3.96"
+      ]
     },
   ],
 };

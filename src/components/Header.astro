@@ -8,10 +8,10 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 
 <header
   id="header"
-  class="fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300"
+  class="fixed top-0 left-0 right-0 z-50 md:block transition-all duration-300"
 >
   <nav class="max-w-7xl mx-auto px-8 py-4">
-    <ul class="flex items-center gap-8 justify-center">
+    <ul class="flex items-center gap-8 justify-start md:justify-center overflow-x-auto whitespace-nowrap scrollbar-none py-1">
       <li>
         <a
           href="#about"
@@ -56,6 +56,16 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           </li>
         )
       }
+      <li>
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-700 hover:text-black transition-colors font-medium"
+        >
+          Resume
+        </a>
+      </li>
     </ul>
   </nav>
 </header>
