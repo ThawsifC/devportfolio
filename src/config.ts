@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Thawsif Chowdhury",
-  title: "Software Engineering Intern at ThinkNeuro",
+  title: "Ex-Software Engineering Intern at ThinkNeuro",
   description: "Portfolio website of Thawsif Chowdhury",
   accentColor: "#db2777",
   social: {
